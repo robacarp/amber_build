@@ -20,3 +20,4 @@ dependencies: \n\
     \n\
 ' >> /amber/shard.yml
 RUN shards build amber
+RUN ln -s /amber/bin/amber /usr/local/bin
