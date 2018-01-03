@@ -1,4 +1,4 @@
-FROM crystallang/crystal:0.23.1
+FROM crystallang/crystal:0.24.1
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update -qq && apt-get install -y --no-install-recommends libpq-dev libsqlite3-dev libmysqlclient-dev libreadline-dev git curl
