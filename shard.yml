@@ -1,0 +1,12 @@
+name: amber_binary
+version: 0.0.1
+crystal: 0.23.2
+
+targets:
+  amber:
+    main: lib/amber/src/amber/cli.cr
+
+dependencies:
+  amber:
+    github: amberframework/amber
+    version: ~> 0.7.2

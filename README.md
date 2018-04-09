@@ -3,7 +3,7 @@
 Use this docker image as a base image for an Amber app deployment. It comes pre-installed with Crystal, Nodejs & NPM, and Amber.
 
 ```dockerfile
-FROM robacarp/amber:latest
+FROM robacarp/amber_build:latest
 
 ENV AMBER_ENV production
 EXPOSE 3000
