@@ -1,6 +1,6 @@
 name: amber_binary
 version: 0.0.1
-crystal: 0.23.2
+crystal: 0.25.0
 
 targets:
   amber:
@@ -9,4 +9,4 @@ targets:
 dependencies:
   amber:
     github: amberframework/amber
-    version: ~> 0.7.2
+    version: ~> 0.8.0
